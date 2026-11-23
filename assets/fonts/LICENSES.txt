@@ -1,0 +1,8 @@
+Fonts in this folder are licensed under SIL Open Font License 1.1 (OFL 1.1).
+Commercial use, modification and embedding are allowed.
+
+Manrope - (c) Mikhail Sharanda, OFL 1.1
+JetBrains Mono - (c) JetBrains, OFL 1.1
+
+Files were fetched once from fonts.gstatic.com (Google Fonts service) and are served
+locally, so the site itself performs no external requests.
