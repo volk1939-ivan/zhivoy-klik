@@ -286,6 +286,7 @@
         if (area) { area.value = ''; }
         if (contact) { contact.value = ''; }
         try { localStorage.removeItem(draftKey); } catch (e) {}
+        if (CFG.THANKS_URL) { window.location.href = CFG.THANKS_URL; }
         return;
       }
       var mailHref = mailtoLink(payload, subject).replace(/"/g, '%22');

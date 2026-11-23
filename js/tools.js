@@ -162,6 +162,9 @@
       if (ok) {
         setStatus(status, opts.okText || 'Готово! Письмо отправлено — проверьте почту.', 'ok');
         if (opts.onOk) { opts.onOk(); }
+        if (CFG.THANKS_URL && opts.redirect !== false) {
+          window.location.href = CFG.THANKS_URL;
+        }
         return;
       }
       var href = mailto(subject, payload, ep.ccField ? cc : '').replace(/"/g, '%22');
