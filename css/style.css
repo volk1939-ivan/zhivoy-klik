@@ -700,6 +700,11 @@ html.wl-locked, html.wl-locked body { overflow: hidden; }
   border-radius: 999px; font-size: 11px;
   background: var(--wash); color: var(--plum); border: 1px solid #eed3e0;
 }
+.mock--qr { text-align: center; }
+.qr-big {
+  display: block; width: 100%; max-width: 260px; height: auto;
+  margin: 4px auto 0; border-radius: var(--radius-sm);
+}
 
 .globe-wrap {
   padding: 10px 10px 2px; background: var(--card);
