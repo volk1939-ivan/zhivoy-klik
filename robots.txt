@@ -1,0 +1,5 @@
+# «Живой клик» — сайт услуг. Поисковикам разрешено всё.
+User-agent: *
+Allow: /
+
+Sitemap: https://volk1939-ivan.github.io/zhivoy-klik/sitemap.xml
